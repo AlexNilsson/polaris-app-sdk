@@ -22,6 +22,7 @@ export function initApp<Properties> (config: {
 }
 
 if (window) {
+  // @ts-ignore
   window.POLARIS = {
     initApp
   }

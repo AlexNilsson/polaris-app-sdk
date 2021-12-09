@@ -5,7 +5,7 @@ describe('Polaris App SDK', () => {
     expect(() => {
       polaris.initApp({
         getProperties: () => ({ a: 1, b: 2 }),
-        setProperties: (x) => {},
+        setProperties: () => {}
       })
     }).not.toThrow()
   })
