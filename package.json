@@ -16,12 +16,12 @@
     "dev": "rollup -c -w",
     "test": "jest",
     "tdd": "jest --watch",
-    "build": "run-s build:rollup build:types build:docs",
+    "build": "run-s lint build:rollup build:types build:docs",
     "build:rollup": "rollup -c",
     "build:types": "tsc -p ./tsconfig.json --outDir build --declaration true && api-extractor run && rimraf build",
     "build:docs": "typedoc src --out docs",
     "lint": "eslint ./src/**/*.ts --fix",
-    "prepublish": "lint"
+    "prepublish": "lint && test"
   },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.19.2",
