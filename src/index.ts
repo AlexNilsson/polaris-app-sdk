@@ -20,3 +20,9 @@ export function initApp<Properties> (config: {
     }
   })
 }
+
+if (window) {
+  window.POLARIS = {
+    initApp
+  }
+}
