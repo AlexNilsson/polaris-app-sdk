@@ -1,6 +1,6 @@
 {
   "name": "@polareclipse/polaris-app-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "App sdk to connect to polaris webshop",
   "author": "Alexander Nilsson <alexander@polareclip.se> (https://www.polareclip.se)",
   "license": "MIT",
