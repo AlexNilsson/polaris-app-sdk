@@ -1,0 +1,11 @@
+{
+  "name": "@polareclipse/polaris-app-sdk",
+  "version": "1.0.0",
+  "description": "App sdk to connect to polaris webshop",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Alexander Nilsson",
+  "license": "ISC"
+}
